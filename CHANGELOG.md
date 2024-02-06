@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.0.5](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.5...v1.0.5) (2024-02-06)
+
+
+### Features
+
+* Adds common types ([af4db1e](https://github.com/Bostads-AB-Mimer/onecore-types/commit/af4db1ebe534a9e134af596d610a26468a7f80ce))
+* Adds Release Please workflow ([3f1a2f5](https://github.com/Bostads-AB-Mimer/onecore-types/commit/3f1a2f5b4cb1a4c1d4c27c89bed009f60b70feae))
+
+
+### Bug Fixes
+
+* edit release workflow, adds npmignore and mods tsconfig ([1c5f8c3](https://github.com/Bostads-AB-Mimer/onecore-types/commit/1c5f8c39e2d05b8661904ffb560d52f233ede65e))
+* Removes specific export and updates package.json ([690b1d1](https://github.com/Bostads-AB-Mimer/onecore-types/commit/690b1d1efa57eb7120875d2742d6dae85886de93))
+* Uncomment code restoration in types ([e942872](https://github.com/Bostads-AB-Mimer/onecore-types/commit/e94287283576a373eb6003bbfabb46fbc1760a90))
+* Update README.md ([c7df118](https://github.com/Bostads-AB-Mimer/onecore-types/commit/c7df118cebb82ebc8b133ddd4a7b13ee7b98e8ee))
+* Updates .gitignore ([3f2881f](https://github.com/Bostads-AB-Mimer/onecore-types/commit/3f2881ff2b493720ade8f1db68058a4b600c8124))
+
+
+### Miscellaneous Chores
+
+* release 1.0.5 ([1bac7a7](https://github.com/Bostads-AB-Mimer/onecore-types/commit/1bac7a7259c096cb5962ec85790598666b510899))
+
 ## [1.0.5](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.4...v1.0.5) (2024-02-06)
 
 
