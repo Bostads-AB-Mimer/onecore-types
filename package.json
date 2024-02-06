@@ -5,7 +5,7 @@
   "type": "module",
   "main": "build/index.js",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc --declaration"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "homepage": "https://github.com/Bostads-AB-Mimer/onecore-types#readme",
   "dependencies": {
     "release-please": "^16.8.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
   }
 }
