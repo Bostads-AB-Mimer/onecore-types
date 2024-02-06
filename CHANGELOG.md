@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.6](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.5...v1.0.6) (2024-02-06)
+
+
+### Bug Fixes
+
+* Updates workflow ([a0649ea](https://github.com/Bostads-AB-Mimer/onecore-types/commit/a0649eab66a2cdbdd2433f35de7b9859f4d6dc83))
+
 ## [1.0.5](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.5...v1.0.5) (2024-02-06)
 
 
