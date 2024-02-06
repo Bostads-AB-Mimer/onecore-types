@@ -3,7 +3,7 @@
   "version": "1.0.4",
   "description": "ONECore common types",
   "type": "module",
-  "main": "index.ts",
+  "main": "build/index.js",
   "scripts": {
     "build": "tsc"
   },
