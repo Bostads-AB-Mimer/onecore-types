@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.4...v1.0.5) (2024-02-06)
+
+
+### Bug Fixes
+
+* edit release workflow, adds npmignore and mods tsconfig ([9be0254](https://github.com/Bostads-AB-Mimer/onecore-types/commit/9be0254854ad4c6c65e172eacd1eacda0709a0fd))
+
 ## [1.0.4](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.3...v1.0.4) (2024-02-06)
 
 
