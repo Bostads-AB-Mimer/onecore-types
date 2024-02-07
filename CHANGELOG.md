@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.5](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.5...v1.0.5) (2024-02-07)
+
+
+### Miscellaneous Chores
+
+* release 1.0.5 ([326a77f](https://github.com/Bostads-AB-Mimer/onecore-types/commit/326a77f2ae5eb59a39a9def51a6a05f705775368))
+
 ## [1.0.5](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.4...v1.0.5) (2024-02-07)
 
 
