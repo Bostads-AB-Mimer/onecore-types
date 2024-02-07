@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.8](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.7...v1.0.8) (2024-02-07)
+
+
+### Bug Fixes
+
+* Updates tsconfig & package.json ([0763229](https://github.com/Bostads-AB-Mimer/onecore-types/commit/0763229b137e02e46866c6c96d22e9a2908e43fd))
+
 ## [1.0.7](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.0.6...v1.0.7) (2024-02-06)
 
 
