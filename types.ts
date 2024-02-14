@@ -1,5 +1,5 @@
 interface Contact {
-    contactId: string //cmctc.cmctckod
+    contactCode: string //cmctc.cmctckod
     contactKey: string //cmtct.keycmctc
     leaseIds: string | undefined
     firstName: string
@@ -11,7 +11,6 @@ interface Contact {
     phoneNumbers: PhoneNumber[] | undefined
     emailAddress: string,
     isTenant: boolean,
-    lastUpdated: Date | undefined
 }
 
 interface PhoneNumber {
@@ -32,7 +31,6 @@ interface Lease {
     rentalProperty: RentalProperty | undefined
     type: string
     rentInfo: RentInfo | undefined
-    lastUpdated: Date | undefined
     address: Address | undefined
     noticeGivenBy: string | undefined,
     noticeDate: Date | undefined,
