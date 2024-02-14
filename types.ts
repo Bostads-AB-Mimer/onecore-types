@@ -1,7 +1,8 @@
 interface Contact {
     contactCode: string //cmctc.cmctckod
     contactKey: string //cmtct.keycmctc
-    leaseIds: string | undefined
+    leaseIds?: string[]
+    leases?: Lease[]
     firstName: string
     lastName: string
     fullName: string
