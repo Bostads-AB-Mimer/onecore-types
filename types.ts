@@ -140,8 +140,6 @@ interface ConsumerReportError {
   Reject_comment: string;
 }
 
-//todo: these really are response types
-//todo: move to separate file and directory for response types?
 export interface Invoices {
     unpaidInvoices?: Invoice[]
     paidInvoices?: Invoice[]
@@ -173,7 +171,6 @@ export interface UnpaidInvoice {
     toDate: Date
     daysSinceLastDebitDate: number
 }
-
 
 export {
   Contact,
