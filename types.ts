@@ -159,13 +159,13 @@ export interface Invoice {
 }
 
 export interface UnpaidInvoices {
-    invoices: UnpaidInvoice[]
+    unpaidInvoices: UnpaidInvoice[]
     numberOfUnpaidInvoices: number
     accumulatedLastDebitDaysSinceToday: number
 }
 
 export interface UnpaidInvoice {
-    invoice: string
+    invoiceId: string
     amount: number
     fromDate: Date
     toDate: Date
