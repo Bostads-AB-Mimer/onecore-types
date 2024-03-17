@@ -183,6 +183,17 @@ interface Invoice {
   daysSinceLastDebitDate?: number
 }
 
+//maps to response from GetWaitingListTimes in xpand soap service
+interface WaitingList {
+  ApplicantCaption: string
+  ContactCode: string
+  ContractFromApartment: Date
+  QueuePoints: number
+  QueuePointsSocialConnection: number
+  WaitingListFrom: Date
+  WaitingListTypeCaption: string
+}
+
 /*interface UnpaidInvoices {
   unpaidInvoices: UnpaidInvoice[]
   numberOfUnpaidInvoices: number
@@ -216,4 +227,5 @@ export type {
   UnpaidInvoice,*/
   ParkingSpace,
   Email,
+  WaitingList,
 }
