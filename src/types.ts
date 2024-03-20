@@ -185,13 +185,13 @@ interface Invoice {
 
 //maps to response from GetWaitingListTimes in xpand soap service
 interface WaitingList {
-  ApplicantCaption: string
-  ContactCode: string
-  ContractFromApartment: Date
-  QueuePoints: number
-  QueuePointsSocialConnection: number
-  WaitingListFrom: Date
-  WaitingListTypeCaption: string
+  applicantCaption: string
+  contactCode: string
+  contractFromApartment: Date
+  queuePoints: number
+  queuePointsSocialConnection: number
+  waitingListFrom: Date
+  waitingListTypeCaption: string
 }
 
 /*interface UnpaidInvoices {
