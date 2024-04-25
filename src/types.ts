@@ -287,6 +287,19 @@ interface MaintenanceUnitInfo {
   estate: string
 }
 
+interface Ticket {
+  id: number
+  contact_code: string
+  name: string
+  rental_property_id: string
+  property_type: string
+  address: string
+  request_date: string
+  stage_id: string
+  done: boolean
+  close_date: string | false
+}
+
 /*interface UnpaidInvoices {
   unpaidInvoices: UnpaidInvoice[]
   numberOfUnpaidInvoices: number
@@ -329,4 +342,5 @@ export type {
   CommercialSpaceInfo,
   ParkingSpaceInfo,
   MaintenanceUnitInfo,
+  Ticket,
 }
