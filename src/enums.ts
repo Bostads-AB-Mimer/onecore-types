@@ -1,5 +1,7 @@
 enum LeaseStatus {
   Active,
+  Upcoming = 1,
+  Terminated = 2,
 }
 
 enum ParkingSpaceType {
@@ -47,8 +49,9 @@ enum PaymentStatus {
 
 enum ListingStatus {
   Active = 1,
-  Assigned = 2,
-  Deleted = 3,
+  Offer,
+  Assigned = 3,
+  Deleted = 4,
 }
 
 export {

@@ -50,6 +50,12 @@ interface Lease {
   contractDate: Date | undefined
   lastDebitDate: Date | undefined
   approvalDate: Date | undefined
+  residentialArea?: ResidentialArea | undefined;
+}
+
+interface ResidentialArea {
+  code: string;
+  caption: string;
 }
 
 interface RentalProperty {
@@ -213,7 +219,7 @@ interface Listing {
   vacantFrom: Date;
   status: ListingStatus;
   waitingListType?: string | undefined;
-  applicants?: Applicant[]
+  applicants?: Applicant[];
 }
 
 interface Applicant {
