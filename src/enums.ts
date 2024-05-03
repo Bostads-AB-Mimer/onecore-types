@@ -49,9 +49,8 @@ enum PaymentStatus {
 
 enum ListingStatus {
   Active = 1,
-  Offer,
-  Assigned = 3,
-  Deleted = 4,
+  Assigned = 2,
+  Deleted = 3,
 }
 
 enum ApplicantStatus {
