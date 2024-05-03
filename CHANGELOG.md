@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.13.0](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.12.0...v1.13.0) (2024-04-25)
+
+
+### Features
+
+* force release ([eeacd4f](https://github.com/Bostads-AB-Mimer/onecore-types/commit/eeacd4f8b4dc7dfbaffb09a69ee60ff0352c07ec))
+
+## [1.12.0](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.11.0...v1.12.0) (2024-04-24)
+
+
+### Features
+
+* add type for pairing a listing and applicant ([c670e22](https://github.com/Bostads-AB-Mimer/onecore-types/commit/c670e22b37b459a9fc3ee3239de575d22ecd870a))
+
+## [1.11.0](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.10.1...v1.11.0) (2024-04-23)
+
+
+### Features
+
+* (1319) new property-info types ([6d7b3dc](https://github.com/Bostads-AB-Mimer/onecore-types/commit/6d7b3dc0a16943808604e0df491dfd889d05496f))
+
 ## [1.10.1](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.10.0...v1.10.1) (2024-04-23)
 
 

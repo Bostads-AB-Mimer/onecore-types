@@ -1,4 +1,5 @@
 import {
+  ApplicantStatus,
   InvoiceTransactionType,
   LeaseStatus,
   ListingStatus,
@@ -50,12 +51,12 @@ interface Lease {
   contractDate: Date | undefined
   lastDebitDate: Date | undefined
   approvalDate: Date | undefined
-  residentialArea?: ResidentialArea | undefined;
+  residentialArea?: ResidentialArea | undefined
 }
 
 interface ResidentialArea {
-  code: string;
-  caption: string;
+  code: string
+  caption: string
 }
 
 interface RentalProperty {
@@ -202,34 +203,95 @@ interface WaitingList {
 }
 
 interface Listing {
-  id: number;
-  rentalObjectCode: string;
-  address: string;
-  monthlyRent: number;
-  districtCaption?: string;
-  districtCode?: string;
-  blockCaption?: string;
-  blockCode?: string;
-  objectTypeCaption?: string | undefined;
-  objectTypeCode?: string | undefined;
-  rentalObjectTypeCaption?: string | undefined;
-  rentalObjectTypeCode?: string | undefined;
-  publishedFrom: Date;
-  publishedTo: Date;
-  vacantFrom: Date;
-  status: ListingStatus;
-  waitingListType?: string | undefined;
-  applicants?: Applicant[];
+  id: number
+  rentalObjectCode: string
+  address: string
+  monthlyRent: number
+  districtCaption?: string
+  districtCode?: string
+  blockCaption?: string
+  blockCode?: string
+  objectTypeCaption?: string | undefined
+  objectTypeCode?: string | undefined
+  rentalObjectTypeCaption?: string | undefined
+  rentalObjectTypeCode?: string | undefined
+  publishedFrom: Date
+  publishedTo: Date
+  vacantFrom: Date
+  status: ListingStatus
+  waitingListType?: string | undefined
+  applicants?: Applicant[]
 }
 
 interface Applicant {
-  id: number;
-  name: string;
-  contactCode: string;
-  applicationDate: Date;
-  applicationType?: string | undefined; //todo: "Additional" or "Replace". Should be an enum in the future
-  status: ListingStatus;
-  listingId: number;
+  id: number
+  name: string
+  contactCode: string
+  applicationDate: Date
+  applicationType?: string | undefined //todo: "Additional" or "Replace". Should be an enum in the future
+  status: ApplicantStatus
+  listingId: number
+}
+
+interface ApplicantWithListing {
+  applicant: Applicant;
+  listing: Listing;
+}
+
+
+interface RentalPropertyInfo {
+  id: string
+  type: string
+  property: ApartmentInfo | CommercialSpaceInfo | ParkingSpaceInfo
+  maintenanceUnits?: MaintenanceUnitInfo[]
+}
+
+interface ApartmentInfo {
+  rentalTypeCode: string
+  rentalType: string
+  address: string
+  code: string
+  number: string
+  type: string
+  entrance: string
+  floor: string
+  hasElevator: boolean
+  washSpace: string
+  area: number
+  estateCode: string
+  estate: string
+  buildingCode: string
+  building: string
+}
+
+interface CommercialSpaceInfo {
+  rentalTypeCode: string
+  rentalType: string
+  address: string
+  code: string
+  type: string
+  entrance: string
+  estateCode: string
+  estate: string
+  buildingCode: string
+  building: string
+}
+
+interface ParkingSpaceInfo {
+  rentalTypeCode: string
+  rentalType: string
+  address: string
+  code: string
+}
+
+interface MaintenanceUnitInfo {
+  id: string
+  rentalPropertyId: string
+  code: string
+  caption: string
+  type: string
+  estateCode: string
+  estate: string
 }
 
 /*interface UnpaidInvoices {
@@ -268,4 +330,10 @@ export type {
   WaitingList,
   Listing,
   Applicant,
+  ApplicantWithListing,
+  RentalPropertyInfo,
+  ApartmentInfo,
+  CommercialSpaceInfo,
+  ParkingSpaceInfo,
+  MaintenanceUnitInfo,
 }
