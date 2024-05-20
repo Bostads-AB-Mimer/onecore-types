@@ -1,6 +1,6 @@
 # Response types 
 
-The types in this directory has evolved from the need to be able to share more specific response types between the onecore services than the more generic types in `types.ts`.
+The types in this directory have evolved from the need to share more specific response types between the onecore services, as opposed to the more generic types found in ´types.ts`.
 
 The general rule for a type in this directory is that it is shared between services and that it contains special properties not fit for generic usage in `types.ts`. Local types with no dependencies between services should be kept local.  
 
