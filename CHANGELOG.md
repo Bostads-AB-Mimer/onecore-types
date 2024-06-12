@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.21.1](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.21.0...v1.21.1) (2024-06-03)
+
+
+### Bug Fixes
+
+* offer selected applicants should be detailed applicants ([194e7ee](https://github.com/Bostads-AB-Mimer/onecore-types/commit/194e7ee51eefde5ec2189d4ec3daad5c40fb53d2))
+
+## [1.21.0](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.20.0...v1.21.0) (2024-06-03)
+
+
+### Features
+
+* force update ([00a5f6e](https://github.com/Bostads-AB-Mimer/onecore-types/commit/00a5f6e3a0194fb1ff408ba71eb67ba2524dfbfe))
+
+## [1.20.0](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.19.0...v1.20.0) (2024-06-03)
+
+
+### Features
+
+* add new applicant statuses ([#68](https://github.com/Bostads-AB-Mimer/onecore-types/issues/68)) ([13b5b15](https://github.com/Bostads-AB-Mimer/onecore-types/commit/13b5b15270d5bec6dbdd7d78165f138dd1ee3e9b))
+
 ## [1.19.0](https://github.com/Bostads-AB-Mimer/onecore-types/compare/v1.18.0...v1.19.0) (2024-05-22)
 
 
