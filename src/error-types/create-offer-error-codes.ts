@@ -4,7 +4,7 @@ enum CreateOfferErrorCodes {
   NoApplicants = 'no-applicants',
   NoContact = 'no-contact',
   UpdateApplicantStatusFailure = 'update-applicant-status-failure',
-  CreateOfferFailure = 'create-offer',
+  CreateOfferFailure = 'create-offer-failure',
   SendEmailFailure = 'send-email-failure',
   Unknown = 'unknown',
 }
