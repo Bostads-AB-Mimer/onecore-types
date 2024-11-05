@@ -1,4 +1,4 @@
-import { Email } from './types';
+import { Email, Sms } from './types'
 
 interface ParkingSpaceOfferEmail extends Email {
   address: string;
@@ -12,10 +12,13 @@ interface ParkingSpaceOfferEmail extends Email {
   hasParkingSpace: boolean;
 }
 
-interface ParkingSpaceOfferSms {
-  phoneNumber: string;
-  firstName: string;
-  deadlineDate: string;
+interface ParkingSpaceOfferSms extends Sms {
+  firstName: string
+  deadlineDate: string
+}
+
+interface TicketMessageSms extends Sms {
+  message: string
 }
 
 // Can be used for both positive and negative notifications
@@ -28,4 +31,5 @@ export type {
   ParkingSpaceOfferEmail,
   ParkingSpaceNotificationEmail,
   ParkingSpaceOfferSms,
+  TicketMessageSms,
 }
