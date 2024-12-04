@@ -3,7 +3,6 @@ import { z } from 'zod'
 export const ApplicationProfileHousingReferenceSchema = z.object({
   id: z.number(),
   applicationProfileId: z.number(),
-  name: z.string(),
   phone: z.string(),
   email: z.string().nullable(),
   reviewStatus: z.string(),

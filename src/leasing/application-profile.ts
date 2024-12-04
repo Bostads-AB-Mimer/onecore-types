@@ -15,7 +15,6 @@ export const CreateOrUpdateApplicationProfileRequestParamsSchema =
     landlord: true,
   }).extend({
     housingReference: ApplicationProfileHousingReferenceSchema.pick({
-      name: true,
       email: true,
       expiresAt: true,
       phone: true,
