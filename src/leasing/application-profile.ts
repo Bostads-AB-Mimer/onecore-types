@@ -1,4 +1,7 @@
-import { ApplicationProfileSchema } from '../schemas'
+import {
+  ApplicationProfileHousingReferenceSchema,
+  ApplicationProfileSchema,
+} from '../schemas'
 
 export const GetApplicationProfileResponseDataSchema = ApplicationProfileSchema
 
@@ -7,6 +10,19 @@ export const CreateOrUpdateApplicationProfileRequestParamsSchema =
     numAdults: true,
     numChildren: true,
     expiresAt: true,
+    housingType: true,
+    housingTypeDescription: true,
+    landlord: true,
+  }).extend({
+    housingReference: ApplicationProfileHousingReferenceSchema.pick({
+      name: true,
+      email: true,
+      expiresAt: true,
+      phone: true,
+      reviewStatus: true,
+      reviewStatusReason: true,
+      reviewedAt: true,
+    }).optional(),
   })
 
 export const CreateOrUpdateApplicationProfileResponseDataSchema =
