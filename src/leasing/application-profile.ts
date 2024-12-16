@@ -19,8 +19,11 @@ export const CreateOrUpdateApplicationProfileRequestParamsSchema =
       expiresAt: true,
       phone: true,
       reviewStatus: true,
-      reviewStatusReason: true,
-      reviewedAt: true,
+      comment: true,
+      reasonRejected: true,
+      lastAdminUpdatedBy: true,
+      lastAdminUpdatedAt: true,
+      lastApplicantUpdatedAt: true,
     }).optional(),
   })
 
