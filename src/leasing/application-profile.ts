@@ -21,10 +21,9 @@ export const CreateOrUpdateApplicationProfileRequestParamsSchema =
       reviewStatus: true,
       comment: true,
       reasonRejected: true,
-      lastAdminUpdatedBy: true,
       lastAdminUpdatedAt: true,
       lastApplicantUpdatedAt: true,
-    }).optional(),
+    }),
   })
 
 export const CreateOrUpdateApplicationProfileResponseDataSchema =
