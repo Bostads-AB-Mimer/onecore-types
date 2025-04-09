@@ -33,6 +33,14 @@ interface Contact {
   specialAttention?: boolean
 }
 
+interface Company {
+  id: string
+  propertyObjectId: string
+  code: string
+  name: string
+  organizationNumber: number
+}
+
 type NonEmptyArray<T> = [T, ...T[]]
 
 // The idea of a tenant is that it definitely has at least one active or upcoming(?) housing contract.
@@ -369,6 +377,7 @@ type ApplicationProfileHousingReference = z.infer<
 
 export type {
   Contact,
+  Company,
   Lease,
   RentalProperty,
   Address,
