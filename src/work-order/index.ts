@@ -21,6 +21,7 @@ interface WorkOrder {
     EquipmentCode: string
   }[]
   Messages?: WorkOrderMessage[]
+  IsHiddenFromUser: boolean
 }
 
 interface WorkOrderMessage {
