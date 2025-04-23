@@ -21,6 +21,7 @@ interface WorkOrder {
     EquipmentCode: string | null
   }[]
   Messages?: WorkOrderMessage[]
+  Url?: string
 }
 
 interface WorkOrderMessage {
