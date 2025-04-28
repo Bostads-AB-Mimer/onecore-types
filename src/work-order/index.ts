@@ -16,12 +16,13 @@ interface WorkOrder {
   Status: string
   UseMasterKey: boolean
   WorkOrderRows: {
-    Description: string
-    LocationCode: string
-    EquipmentCode: string
+    Description: string | null
+    LocationCode: string | null
+    EquipmentCode: string | null
   }[]
   Messages?: WorkOrderMessage[]
   IsHiddenFromUser: boolean
+  Url?: string
 }
 
 interface WorkOrderMessage {
