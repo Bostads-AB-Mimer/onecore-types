@@ -21,7 +21,7 @@ interface WorkOrder {
     EquipmentCode: string | null
   }[]
   Messages?: WorkOrderMessage[]
-  IsHiddenFromUser: boolean
+  HiddenFromMyPages: boolean
   Url?: string
 }
 
