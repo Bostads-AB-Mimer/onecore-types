@@ -27,6 +27,31 @@ interface WorkOrderEmail extends Email {
   externalContractorName?: string
 }
 
+interface FlowParticipant {
+  identifyBy: {
+    identifier: string
+    type: string // e.g., "PHONE", "EMAIL"
+  }
+  person: {
+    firstName: string
+    lastName: string
+    customAttributes?: Record<string, string>
+    contactInformation?: {
+      phone?: {
+        number: string
+      }[]
+      email?: {
+        address: string
+      }[]
+    }
+  }
+}
+
+interface AddToFlowRequest {
+  flowId: string
+  participants: FlowParticipant[]
+}
+
 // Can be used for both positive and negative notifications
 interface ParkingSpaceNotificationEmail extends Email {
   address: string
@@ -39,4 +64,7 @@ export type {
   ParkingSpaceOfferSms,
   WorkOrderSms,
   WorkOrderEmail,
+  FlowParticipant,
+  AddToFlowRequest,
 }
+
