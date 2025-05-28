@@ -355,6 +355,9 @@ interface RentalObject {
   objectTypeCaption: string
   objectTypeCode: string
   vacantFrom: Date
+  braArea?: number
+  btaArea?: number
+  boaArea?: number
 }
 
 interface VacantParkingSpace extends RentalObject {
